@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "test top mfmfmfm",
+  "version": "1.0",
+  "description": "Переключение по вкладкам",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["app.js"]
+    }
+  ]
+}
